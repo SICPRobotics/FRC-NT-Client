@@ -1,5 +1,5 @@
 {
-  "name": "nt-client",
+  "name": "ntclient",
   "version": "1.7.3",
   "description": "Client for FRC Network Tables",
   "main": "index.js",
@@ -13,7 +13,7 @@
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/rakusan2/FRC-NT-Client.git"
+    "url": "git+https://github.com/SICPRobotics/NT-Client.git"
   },
   "keywords": [
     "FIRST",
@@ -24,9 +24,9 @@
   "author": "Tomas Rakusan & Team 5822",
   "license": "MIT",
   "bugs": {
-    "url": "https://github.com/rakusan2/FRC-NT-Client/issues"
+    "url": "https://github.com/SICPRobotics/NT-Client/issues"
   },
-  "homepage": "https://github.com/rakusan2/FRC-NT-Client#readme",
+  "homepage": "https://github.com/SICPRobotics/NT-Client#readme",
   "dependencies": {
     "ieee754": "^1.1.8"
   },

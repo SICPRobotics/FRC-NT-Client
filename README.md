@@ -13,7 +13,7 @@ npm install nt-client
 
 ```js
 // Declaration
-const ntClient = require('nt-client');
+const ntClient = require('ntclient');
 
 const client = new ntClient.Client()
 
