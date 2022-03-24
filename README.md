@@ -6,14 +6,14 @@ This client uses version [3.0](https://github.com/wpilibsuite/ntcore/blob/master
 
 ## Installation
 ```
-npm install nt-client
+npm install wolfbyte-networktables
 ```
 
 ## Usage
 
 ```js
 // Declaration
-const ntClient = require('ntclient');
+const ntClient = require('wolfbyte-networktables');
 
 const client = new ntClient.Client()
 

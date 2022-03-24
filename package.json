@@ -1,5 +1,5 @@
 {
-  "name": "ntclient",
+  "name": "wolfbyte-networktables",
   "version": "1.7.3",
   "description": "Client for FRC Network Tables",
   "main": "index.js",
