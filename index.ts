@@ -311,7 +311,9 @@ export class Client {
                 this.known = flags > 0;
                 let sName = TypesFrom[e.String](buf, off);
                 this.serverName = sName.val;
-                this.debug(debugType.messages, { serverName: sName.val, isKnown: flags > 0 })
+                this.debug(debugType.messages, { serverName: sName.val, isKnown: flags > 0 });
+                this.connected = true;
+                this.afterConnect();
                 return sName.offset;
             },
             /** Entry Assignment */

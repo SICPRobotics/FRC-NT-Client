@@ -1,6 +1,6 @@
 {
-  "name": "wpilib-nt-client",
-  "version": "1.7.2",
+  "name": "nt-client",
+  "version": "1.7.3",
   "description": "Client for FRC Network Tables",
   "main": "index.js",
   "types": "types/index.d.ts",
@@ -21,7 +21,7 @@
     "NetworkTables",
     "wpilib"
   ],
-  "author": "Tomas Rakusan",
+  "author": "Tomas Rakusan & Team 5822",
   "license": "MIT",
   "bugs": {
     "url": "https://github.com/rakusan2/FRC-NT-Client/issues"
