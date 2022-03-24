@@ -1,17 +1,19 @@
+## Fork of `wpilib-nt-client` that fixes connection issues
+
 # WPILIB Network Tables Client
 This client uses version [3.0](https://github.com/wpilibsuite/ntcore/blob/master/doc/networktables3.adoc)
  of the **Network Tables Protocol**. With a failover to [2.0](https://github.com/wpilibsuite/ntcore/blob/master/doc/networktables2.adoc)
 
 ## Installation
 ```
-npm install wpilib-nt-client
+npm install nt-client
 ```
 
 ## Usage
 
 ```js
-// Decleration
-const ntClient = require('wpilib-nt-client');
+// Declaration
+const ntClient = require('nt-client');
 
 const client = new ntClient.Client()
 
